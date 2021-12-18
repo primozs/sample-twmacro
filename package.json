@@ -1,0 +1,40 @@
+{
+  "name": "flylite.si",
+  "description": "web site",
+  "version": "0.0.1",
+  "author": "Primoz Susa <primoz.susa@pm.me>",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "NODE_ENV=production next start -p 3000",
+    "lint": "next lint",
+    "build:base-css": "tailwindcss build -i ./styles/tailwind.base.css -o ./styles/base.css"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@moxy/next-pre-compression": "^3.0.1",
+    "next": "12.0.7",
+    "next-google-fonts": "^2.2.0",
+    "next-pwa": "^5.4.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sharp": "^0.29.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@emotion/babel-plugin": "^11.7.1",
+    "@types/node": "^16.11.12",
+    "@types/react": "17.0.37",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.4.1",
+    "eslint-config-next": "12.0.7",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "tailwindcss": "2.1.4",
+    "typescript": "^4.5.3",
+    "xwind": "^0.8.0"
+  }
+}
