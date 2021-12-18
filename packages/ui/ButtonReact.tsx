@@ -1,4 +1,4 @@
-import xw, { cx } from 'xwind';
+import xw from 'twin.macro';
 
 const styles = {
   button: xw`
@@ -24,7 +24,7 @@ type Props = React.DetailedHTMLProps<
 >;
 
 const ButtonReact = ({ className, children, ...props }: Props) => (
-  <button {...props} css={styles.button} className={cx('group', className)}>
+  <button {...props} css={styles.button} className={'group ' + className || ''}>
     <span css={xw`absolute left-0 inset-y-0 flex items-center pl-3`}>
       <svg
         css={xw`h-5 w-5 text-gray-500 group-hover:text-gray-400 transition ease-in-out duration-150`}

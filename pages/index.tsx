@@ -1,4 +1,4 @@
-import xw from 'xwind';
+import xw from 'twin.macro';
 import type { NextPage } from 'next';
 import ButtonReact from 'ui/ButtonReact';
 import ButtonStyled from 'ui/ButtonStyled';

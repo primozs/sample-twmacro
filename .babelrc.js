@@ -10,5 +10,5 @@ module.exports = {
       },
     ],
   ],
-  plugins: ['xwind/babel', '@emotion/babel-plugin'],
+  plugins: ['@emotion/babel-plugin', 'babel-plugin-macros'],
 };

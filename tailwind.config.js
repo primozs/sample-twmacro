@@ -59,8 +59,5 @@ module.exports = {
     fontFamily: false,
     float: false,
   },
-  plugins: [require('xwind/plugins/base')],
-  xwind: {
-    mode: 'objectstyles',
-  },
+  plugins: [],
 };
