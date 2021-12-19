@@ -8,7 +8,7 @@ const Contact: NextPage = () => {
         <title>404</title>
       </Head>
 
-      <div>404</div>
+      <div>Not found, 404</div>
     </>
   );
 };
