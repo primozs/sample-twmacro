@@ -1,5 +1,5 @@
 {
-  "name": "flylite.si",
+  "name": "sample-twmacro",
   "description": "web site",
   "version": "0.0.1",
   "author": "Primoz Susa <primoz.susa@pm.me>",
@@ -9,9 +9,14 @@
     "build": "next build",
     "export": "next export",
     "start": "NODE_ENV=production next start -p 3000",
-    "lint": "next lint",
-    "build:base-css": "tailwindcss build -i ./styles/tailwind.base.css -o ./styles/base.css"
+    "lint": "next lint"
   },
+  "browserslist": [
+    ">0.5%",
+    "not ie <= 11",
+    "not dead",
+    "not op_mini all"
+  ],
   "dependencies": {
     "@emotion/css": "^11.7.1",
     "@emotion/react": "^11.7.1",
